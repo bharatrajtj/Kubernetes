@@ -1,8 +1,8 @@
-###Kubernetes Architecture Overview
+### Kubernetes Architecture Overview
 
 Kubernetes, is a container orchestration platform, operates within a cluster environment comprising master and worker nodes. This document provides an in-depth exploration of the key components of Kubernetes architecture, focusing on the roles of the master and worker nodes.
 
-#Master Node Components
+# Master Node Components
 The Master node, often referred to as the Control Plane, serves as the central nervous system of the Kubernetes cluster. It comprises several critical components that collectively manage the orchestration of containers.
 
 **API Server:**
@@ -20,7 +20,7 @@ The Controller oversees various aspects, including node and replica controllers,
 **Cloud Controller Manager:**
 In cloud provider environments like AWS (EKS) or Azure (AKS), the Cloud Controller Manager configures logic for the cloud provider API server. It facilitates integration with cloud-specific features, though it is not a requisite component for on-premise Kubernetes deployments.
 
-#Worker Node Components
+# Worker Node Components
 The worker node, an integral part of the Kubernetes architecture, consists of components managing the execution of pods and handling networking responsibilities.
 
 **Kubelet:**
@@ -31,3 +31,5 @@ Responsible for node networking, Kube Proxy provides crucial functions such as I
 
 **Container Runtime:**
 Serving as the execution environment for containers, the Container Runtime (e.g., containerd, Docker) launches and manages containers within the worker node. Kubernetes provides flexibility in choosing among various container runtimes available in the market.
+
+-----
