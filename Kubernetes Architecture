@@ -1,5 +1,5 @@
 **Kubernetes Architecture Overview**
-
+**b**
 
 Kubernetes, a container orchestration platform, operates within a cluster environment comprising master and worker nodes. This document provides an in-depth exploration of the key components of Kubernetes architecture, focusing on the roles of the master and worker nodes.
 
